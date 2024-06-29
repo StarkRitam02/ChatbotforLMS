@@ -35,7 +35,7 @@ import numpy as np
 
 # Load your documents
 loader = UnstructuredCSVLoader(
-    file_path="/content/sample_data/final_library_books.csv", mode="elements"
+    file_path="final_library_books.csv", mode="elements"
 )
 docs = loader.load()
 text_documents = loader.load()
